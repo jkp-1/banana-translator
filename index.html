@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banana-translator</title>
+    <script src="app.js" charset="utf-8"></script>
+    <link href = "/styles-demo.css" rel = "stylesheet">
+</head>
+<style>
+    #text-input{
+        width:600px;
+        height: 15vh;
+        padding:2ren, 2ren; 
+        margin-left: 450px; 
+        /* margin-top: 10px; */
+        border: 0.1rem solid black;
+
+    }
+    #text-output{
+        width:600px;
+        height: 15vh;
+        padding:2ren, 2ren; 
+        margin-left: 450px;
+        border: 0.1rem solid black;
+        margin-bottom: 2rem;
+
+    }
+
+    
+
+    .trns-text{
+        margin-left: 450px;
+    }
+    
+    
+</style>
+<nav class="container navigation">
+   
+    <div class="nav-brand">YODA TRANSLATOR</div>
+    <ul class="nav-pills">
+        <li class = "list-inline active-link"><a class = "link nav-pills ">May the Force be with you</a></li> 
+        
+    </ul>
+
+</nav>
+
+<body class="container "id="body">
+   
+<h1> <span class="display"></span></h1>
+
+<section>
+        <textarea id="text-input" placeholder= "Enter the text you want to translate">
+        </textarea>
+
+</section>
+
+<section>
+    <div><button class="link-primary" id ="btn-translate">Translate</button></div>
+    <p class="trns-text">Your translation will appear here 👇🏻</p>
+</section>
+
+<section>
+    <div><textarea id="text-output"></textarea></div>
+</section>
+
+<nav class="container navigation">
+   
+    <div class="nav-brand2">about</div>
+    <p class="container-center">Are you a fan of Star Wars? Do you want to speak like Yoda? Use the translator to convert your text from English to the way Yoda speaks.</p>
+    <ul class="nav-pills">
+        <li class = "list-inline active-link"><a class = "link nav-pills "></a></li> 
+        
+    </ul>
+
+</nav>
+
+    <script src="app.js" charset="utf-8"></script>
+</body>
+</html>

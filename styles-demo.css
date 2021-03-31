@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Kalam:wght@300&display=swap');
+
+body{
+    font-family: 'Cedarville Cursive', cursive;
+font-family: 'Kalam', cursive;
+
+}
+.navigation .nav-brand2{
+    font-family:  'Kalam', cursive;;
+}
+
+.footer{
+    font-family: 'Cedarville Cursive', cursive;
+}
+hr{
+    margin: 2rem 0rem;
+}
+
+:root{
+    --primary-color :#7C3AED;
+}
+
+.container{
+    padding:  0em 1em;
+}
+
+.container-center{
+    max-width: 600px;
+    margin: auto;
+    /* text-align: center; */
+  
+    
+} 
+
+.link{
+    text-decoration: none;
+    padding:0.5em;
+}
+
+.link-primary{
+    background-color: #65A30D; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 450px;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    border-radius: 0.5rem;
+    font-family: 'Kalam', cursive;
+
+}
+.link-secondary{
+    border: 1px solid var(--primary-color);
+    border-radius: 10px 100px / 120px;;
+    color:var(--primary-color);
+
+}
+
+.non-bullet{
+    list-style: none;
+}
+
+.list-inline{
+    display: inline;
+    padding: 0rem 1rem;
+}
+
+.navigation{
+    background-color: #65A30D;
+    padding: 0.5rem;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    
+}
+
+.navigation .nav-pills{
+    text-align: right;
+    color: white;
+}
+
+.navigation .nav-brand{
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    margin-left:500px;
+}
+
+.navigation .nav-brand2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    margin-left:680px;
+   
+}
+.navigation .active-link{
+    font-weight: bold;
+}
+
+.hero{
+    padding: 2rem;
+}
+
+.hero .hero-img{
+    
+    width: 500px;
+    display:block;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero .hero-head{
+    text-align: center;
+    color:gray;
+}
+
+.hero .hero-head .hero-inverted{
+    color: blueviolet;
+}
+
+.section{
+    padding:2rem;
+    text-align: center;
+}
+
+.ow{
+    padding:2rem;
+    background-color:#F3F4F6;
+}
+
+.footer{
+    background-color:var(--primary-color);
+    padding: 2rem 1rem;
+    color: white;
+    text-align: center;
+    border-top-right-radius: 0.5rem;
+
+}
+
+ .footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer ul{
+    margin-inline-start: -40px;
+}
+
+.footer .link{
+    color:white;   
+     
+}
